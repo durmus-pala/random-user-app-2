@@ -17,7 +17,7 @@ const Written = ({ info }) => {
             <th>Phone</th>
             <th>Age</th>
           </tr>
-          {info.map((item, index) => (
+          {info?.map((item, index) => (
             <tr className="tableData" key={index}>
               <td>
                 {item.name.first} {item.name.last}

@@ -14,19 +14,17 @@ import Written from "./Written";
 
 const UserCard = () => {
   const [userList, setUserList] = useState([]);
-  const [currentData, setCurrentData] = useState({
-    title: "name",
-    info: " ",
-  });
-  const [written, setWritten] = useState([]);
-
   const getData = () => {
     axios
       .get("https://randomuser.me/api/")
       .then((res) => setUserList(res.data.results));
   };
-
   useEffect(() => getData(), []);
+  const [currentData, setCurrentData] = useState({
+    title: "name",
+    info: " ",
+  });
+  const [written, setWritten] = useState([]);
 
   return (
     <div className="user-card">
@@ -139,7 +137,7 @@ const UserCard = () => {
             />
           </div>
           <div className="button-container">
-            <button class="btn" onClick={getData}>
+            <button className="btn" onClick={getData}>
               Random User
             </button>
             <button
