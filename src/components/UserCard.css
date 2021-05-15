@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: bisque;
+}
+.logo-div {
+  width: 36.25rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 1.25rem;
+  background-color: darkgray;
+  padding: 0.625rem;
+}
+#logo {
+  width: 3.125rem;
+}
+.user-card {
+  width: 37.5rem;
+  margin: auto;
+  background-color: aqua;
+}
+.profil-photo {
+  width: 6.25rem;
+  margin: auto;
+  padding-top: 1.25rem;
+}
+#profil-pic {
+  border-radius: 62.4375rem;
+}
+.info {
+  padding-top: 1.25rem;
+  text-align: center;
+}
+.icon-container {
+  width: 37.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.25rem;
+}
+.button-container {
+  width: 37.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  width: 6.25rem;
+  height: 1.875rem;
+  border-radius: 0.9375rem;
+}
+
+.icons {
+  width: 1.875rem;
+}
+.tableHeader {
+  background-color: orange;
+}
+.tableData {
+  background-color: lightgray;
+  text-align: center;
+}
+.design-div {
+  width: 36.875rem;
+  margin: auto;
+  text-align: center;
+  padding: 0.3125rem;
+  border: 0.0625rem solid black;
+  margin-top: 1.25rem;
+  background-color: azure;
+}
+#design {
+  width: 3.125rem;
+}

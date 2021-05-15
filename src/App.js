@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./components/images/cw.svg";
+import design from "./components/images/design.svg";
+import UserCard from "./components/UserCard";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="logo-div">
+        <img id="logo" src={logo} alt="" />
+      </div>
+      <UserCard />
+      <div className="design-div">
+        <img id="design" src={design} alt="" />
+        <span>made by DPALA</span>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
